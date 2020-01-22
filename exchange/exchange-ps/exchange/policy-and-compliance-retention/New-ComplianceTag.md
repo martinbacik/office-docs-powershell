@@ -111,7 +111,8 @@ Accept wildcard characters: False
 ```
 
 ### -EventType
-The EventType specifies the retention rule that's associated with the label. You can use any value that uniquely identifies the rule. For example:
+The EventType specifies the retention event type that can be associated with the label. You can use any value that uniquely identifies the event type. The event type can be only set using -RetentionType EventAgeInDays 
+For example:
 
 - Name
 
